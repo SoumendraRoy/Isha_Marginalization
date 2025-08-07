@@ -7,3 +7,4 @@ We add correlated parameter estimation error to $x$ and $y$ by drawing observed 
 $(x_{\mathrm{obs}}, y_{\mathrm{obs}}) \sim \mathcal{N}((x, y), \mathrm{Cov})$.
 
 The question is: can we accurately infer $\mu_y$ and $\sigma_y$ using only $y_{\mathrm{obs}}$, ignoring $x_{\mathrm{obs}}$?
+Answer: No we can't.
